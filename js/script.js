@@ -31,5 +31,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-
+      const tooltip = document.getElementById("tooltip");
   });
