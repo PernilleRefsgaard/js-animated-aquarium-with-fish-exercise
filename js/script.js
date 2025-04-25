@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-
+      anchor.addEventListener("mouseleave", () => {
+        anchorTooltip.style.opacity = "0";
+      });
 
 
 
